@@ -11,7 +11,7 @@ all_text = ''
 
 
 def show_the_scr():
-    cv2.imshow('ScreenChot', img)
+    cv2.imshow('ScreenShot', img)
     cv2.waitKey(0)
 
 
@@ -30,7 +30,7 @@ while t != 'q':
     # Open the screenshot
     image = Image.open('scr.png')
 
-    # Путь для подключения tesseract
+    # Path for connecting tesseract in Windows.
     # pytesseract.pytesseract.tesseract_cmd = 'C:\\Program Files\\Tesseract-OCR\\tesseract.exe'
 
     # Connecting a screenshot
